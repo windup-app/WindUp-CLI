@@ -1,0 +1,52 @@
+{
+	"name": "@windup.app/windup",
+	"version": "0.1.0",
+	"description": "WindUp Template CLI",
+	"homepage": "https://windup.app",
+	"url": "https://github.com/windup-app/WindUp-CLI/issues",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/windup-app/WindUp-CLI"
+	},
+	"bugs": {
+		"url": "https://github.com/windup-app/WindUp-CLI/issues"
+	},
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"keywords": [
+		"WindUp",
+		"Vue",
+		"Vuejs",
+		"Vue 3",
+		"JavaScript",
+		"TypeScript",
+		"PWA",
+		"Template"
+	],
+	"author": "WindUP, tranding name under Clockwork Studios LTD <info@cws.ltd> (https://cws.ltd)",
+	"license": {
+		"type": "MIT",
+		"url": "/MIT-License.txt"
+	},
+	"bin": {
+		"create-windup": "index.js",
+		"new-windup": "index.js",
+		"cwu": "index.js",
+		"nwu": "index.js"
+	},
+	"files": [
+		"index.js",
+		"template-*"
+	],
+	"main": "index.js",
+	"engines": {
+		"node": ">=14.6.0"
+	},
+	"dependencies": {
+		"kolorist": "^1.5.1",
+		"minimist": "^1.2.6",
+		"prompts": "^2.4.2"
+	}
+}
